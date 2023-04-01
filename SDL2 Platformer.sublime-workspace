@@ -1,0 +1,1124 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setClearUp"
+			],
+			[
+				"sy",
+				"syswindow"
+			],
+			[
+				"tempr",
+				"tempRect"
+			],
+			[
+				"com",
+				"Component"
+			],
+			[
+				"isN",
+				"isMainenemy"
+			],
+			[
+				"SDLK_",
+				"SDL_KEYUP"
+			],
+			[
+				"SDLK",
+				"SDLK_SPACE"
+			],
+			[
+				"SDL_",
+				"SDLK_LEFT"
+			],
+			[
+				"v_",
+				"v_fric"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"re",
+				"renderer"
+			],
+			[
+				"_t",
+				"_text_texture"
+			],
+			[
+				"tex",
+				"text_texture"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"foot",
+				"football_texture"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/mainEnemy.cpp",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/NPCSprite.cpp",
+			"settings":
+			{
+				"buffer_size": 847,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/GameEngine.cpp",
+			"settings":
+			{
+				"buffer_size": 4231,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/GameEngine.h",
+			"settings":
+			{
+				"buffer_size": 681,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/PCSprite.cpp",
+			"settings":
+			{
+				"buffer_size": 2553,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//Mohammed Tahmid Chowdhury Moch8386\n//Grupp 77\n#include \"Enemybullet.h\"\n#include <bits/stdc++.h>\n\nusing namespace std;\n\n\nnamespace gmeng {\n\t// Enemybullet::Enemybullet(const int y, const char* p) :Sprite(500, 100 , y , 20, p)\n\t// {\n\n\t// }//Enemybullet()\n\t\n\t\n\t// Enemybullet::~Enemybullet()\n\t// {\n\t// }//~~Enemybullet()\n\t\n}//NameSpace",
+			"file": "src/Playerhealth.cpp",
+			"file_size": 316,
+			"file_write_time": 132648913677100796,
+			"settings":
+			{
+				"buffer_size": 334,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/PCSprite.h",
+			"settings":
+			{
+				"buffer_size": 943,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//Mohammed Tahmid Chowdhury Moch8386\n//Grupp 77\n#ifndef Playerhealth_H\n\n#define Playerhealth_H\n\n#include \"Sprite.h\"\n\n#include\"System.h\"\n\nnamespace gmeng {\n\tclass Playerhealth : public Sprite\n\t{\n\tpublic:\n\t\t\n\t\tstatic Playerhealth* getInstance(const int x,  const char* p) { return new Playerhealth(x, p); }\n\t\t\n\t\t\n\t\t~Playerhealth();\n\tprotected:\n\t\tPlayerhealth(const int x,  const char* p);\n\n\tprivate:\n\t\t\n\t\tint PlayerhealthSpeed = 5;\n\n\t\tPlayerhealth(const Playerhealth&) = delete;\n\t\t//Preventing it from copyg itself \n\t\tconst Playerhealth& operator=(const Playerhealth&) = delete;//Preventing it from copyg itself \n\t};//class\n}//Namspace\n#endif",
+			"file": "include/Playerhealth.h",
+			"file_size": 640,
+			"file_write_time": 132648915320961379,
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/Sprite.h",
+			"settings":
+			{
+				"buffer_size": 890,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Main.cpp",
+			"settings":
+			{
+				"buffer_size": 1207,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/Healthbarbg.h",
+			"settings":
+			{
+				"buffer_size": 523,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Healthbarbg.cpp",
+			"settings":
+			{
+				"buffer_size": 291,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/System.h",
+			"settings":
+			{
+				"buffer_size": 571,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/Component.h",
+			"settings":
+			{
+				"buffer_size": 1697,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/Enemybullet.h",
+			"settings":
+			{
+				"buffer_size": 675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "//Mohammed Tahmid Chowdhury moch8386\n//Grupp 77\n#include \"Sprite.h\"\n#include <SDL2/SDL_image.h>\n#include \"System.h\"\n#include \"Healthbarbg.h\"\n#include \"GameEngine.h\"\n#include <iostream>\n#include <string>\nusing namespace std;\nnamespace gmeng {\n\tSprite::Sprite(int x, int y, int w, int h, const char* p) : Component(x,  y, w,  h)\n\t{\n\t\tsurface_sprite = IMG_Load(p);\n\t\tif (surface_sprite == nullptr) {\n\t\t\tthrow invalid_argument(\"fanns ingen bild där\");\n\t\t}\n\t\t\n\t\ttexture_sprite = SDL_CreateTextureFromSurface(syswindow.getRen(), surface_sprite);\n\t\tSDL_FreeSurface(surface_sprite);\n\n\t\t\n\n\t}//Sprite()\n\t\n\t\n\tvoid Sprite::draw() {\n\t\t\n\tconst SDL_Rect& rect = getRect();\n\tSDL_RenderCopy(syswindow.getRen(), texture_sprite, NULL, &rect);\n\t\t\n\t}//draw()\n\n\tvoid Sprite::action(std::vector<Component*>* sprite) {\n\t\tPathAction();\n\t\tcollission(sprite);\n\t}//action()\t\t\t\n\n\tvoid Sprite::Bulletaction(std::vector<Component*>* sprite) {\n\t\t\tenemybulletcollission(sprite);\n\t}//action()\n\n\n\tvoid Sprite::collission(std::vector<Component*>* sprite) {\n\t\tconst SDL_Rect& rect = getRect();\n\t\tconst SDL_Rect* tempRect = &rect;\n\t\tfor (Component* bullet : *sprite) {\n\t\t\tif ((bullet->getBullet() == true) && (getNPC() == true || getMainenemy() == true)) {\n\t\t\t\tconst SDL_Rect& rectC = bullet->getRect();\n\t\t\t\tconst SDL_Rect* temprectC = &rectC;\n\t\t\t\tif (SDL_HasIntersection(tempRect, temprectC) == SDL_TRUE) {\n\n\t\t\t\t\tif ((bullet->getBullet())) {\n\t\t\t\t\t\tbullet->setClearUp(true);\n\t\t\t\t\t\tsetClearUp(true);\n\t\t\t\t\t}//if bullet, extra check, probably unnecessary, but set to clear them up true for both the object and the bullet \n\n\t\t\t\t}//check if the the npc and bullet is contacted on that postion \n\t\t\t\t\n\n\t\t\t}//check if the object is bullet and the that was attacked is npc \n\n\t\t}//for to loop over\n\t\t\n\t}//collision()\t\n\n\n\tvoid Sprite::enemybulletcollission(std::vector<Component*>* sprite) {\n\t\tconst SDL_Rect& rect = getRect();\n\t\tconst SDL_Rect* tempRect = &rect;\n\n\t\t//cout << getRect().x << endl;\n\t\tfor (Component* bullet : *sprite) {\n\t\t\tif ((bullet->getEnemybullet() == true )) {\n\t\t\t\tconst SDL_Rect& rectC = bullet->getRect();\n\t\t\t\tconst SDL_Rect* temprectC = &rectC;\n\t\t\t\tif (SDL_HasIntersection(tempRect, temprectC) == SDL_TRUE) {\n\n\t\t\t\t\tif ((bullet->getEnemybullet()) && getRect().w ==100) {\n\t\t\t\t\t\tbullet->setClearUp(true);\n\n\t\t\t\t\t}//if bullet, extra check, probably unnecessary, but set to clear them up true for both the object and the bullet\n\n\t\t\t\t\telse\n\t\t\t\t\t{\n\t\t\t\t\t\tbullet->setClearUp(true);\n\t\t\t\t\t} \n\n\t\t\t\t}//check if the the npc and bullet is contacted on that postion \n\t\t\t\t\n\n\t\t\t}//check if the object is bullet and the that was attacked is npc \n\n\t\t}//for to loop over\n\t\t\n\t}//collision()\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\n\n\tSprite::~Sprite()\n\t{\n\t\tSDL_DestroyTexture(texture_sprite);\n\n\t}//~sprite()\n\n}//NameSpace",
+			"file": "src/Sprite.cpp",
+			"file_size": 2894,
+			"file_write_time": 132648971966263422,
+			"settings":
+			{
+				"buffer_size": 2752,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//Mohammed Tahmid Chowdhury Moch8386\n//Grupp 77\n#include \"Enemybullet.h\"\n#include <bits/stdc++.h>\n\nusing namespace std;\n\n\nnamespace gmeng {\n\tEnemybullet::Enemybullet(const char* p) :Sprite(600, 600/, 20, 20, p)\n\t{\n\t\tsetEnemybullet(true);\n\t}//Enemybullet()\n\n\tvoid Enemybullet::Bulletaction(std::vector<Component*>* sprite) {\n\t\t//cout << 11111 << endl;\n\t\trect.x -=EnemybulletSpeed;\n\t\tif (rect.x < -EnemybulletSpeed) {\n\t\t\tsetClearUp(true);\n\t\t}\t\t\n\t}//action()\n\t\n\t\n\tEnemybullet::~Enemybullet()\n\t{\n\t}//~~Enemybullet()\n\t\n}//NameSpace",
+			"file": "src/playerhealth.cpp",
+			"file_size": 0,
+			"file_write_time": 132648841523878622,
+			"settings":
+			{
+				"buffer_size": 526,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/",
+			"file": "src/playerheatlh.cpp",
+			"file_size": 0,
+			"file_write_time": 132648841384236424,
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Debug",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Debug",
+					""
+				],
+				[
+					"Debug Run",
+					""
+				],
+				[
+					"Release",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Debug",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Debug",
+					""
+				],
+				[
+					"Release",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Debug",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"ai",
+				"Arithmetic"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/henrick/Downloads/SDL2Platformer",
+		"/home/henrick/Downloads/SDL2Platformer/include",
+		"/home/henrick/Downloads/SDL2Platformer/src"
+	],
+	"file_history":
+	[
+		"/home/henrick/Downloads/SDL2Platformer/include/Playerhealth.h",
+		"/home/henrick/Downloads/SDL2Platformer/include/playerhealth.h",
+		"/home/henrick/Downloads/SDL2Platformer/SDL2 Platformer.sublime-project",
+		"/home/henrick/Downloads/SDL2Platformer/include/GameEngine.h",
+		"/home/henrick/Downloads/SDL2Platformer/include/Sprite.h",
+		"/home/henrick/Downloads/SDL2Platformer/src/GameEngine.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/src/Enemybullet.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/src/PCSprite.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/src/Main.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/src/Sprite.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/include/Bullet.h",
+		"/home/henrick/Downloads/SDL2Platformer/include/Enemybullet.h",
+		"/home/henrick/Downloads/SDL2Platformer/src/NPCSprite.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/include/mainEnemy.h",
+		"/home/henrick/Downloads/SDL2Platformer/include/enemyBullet.h",
+		"/home/henrick/Downloads/SDL2Platformer/src/System.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/include/System.h",
+		"/home/henrick/Downloads/SDL2Platformer/include/Component.h",
+		"/home/henrick/Downloads/SDL2Platformer/src/Bullet.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/include/PCSprite.h",
+		"/home/henrick/Downloads/SDL2Platformer/src/mainEnemy.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/res/bullet.bmp",
+		"/home/henrick/Downloads/SDL2Platformer/res/laser.png",
+		"/home/henrick/Downloads/SDL2Platformer/src/main.cpp",
+		"/home/henrick/Downloads/SDL2Platformer/include/header.hpp",
+		"/home/henrick/Downloads/SDL2Platformer/include/engine.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/Text.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/src/Text.cpp",
+		"/home/tahseen/Downloads/Kod och media från F5/Main.cpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/src/renderwindow.cpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/splash.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/RenderWindow.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/header.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/src/main.cpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/utility.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/engine.hpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/ball.hpp",
+		"/home/tahseen/Desktop/2D-RPG-Platformer-Cplusplus-SDL2/bfs.cpp",
+		"/home/tahseen/Desktop/2D-RPG-Platformer-Cplusplus-SDL2/chickenMcnuggetTheorem.cpp",
+		"/home/tahseen/Desktop/2D-RPG-Platformer-Cplusplus-SDL2/aladins jamai vu.cpp",
+		"/home/tahseen/Desktop/2D-RPG-Platformer-Cplusplus-SDL2/Legendres.cpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/SDL2 Platformer.sublime-project",
+		"/home/tahseen/Downloads/Kod och media från F5/test.cpp",
+		"/home/tahseen/Desktop/2D-RPG-Platformer-Cplusplus-SDL2/Part 9/src/entity.cpp",
+		"/home/tahseen/Desktop/SDL2 Platformer/include/RenderSprite.hpp"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/home/tahseen/Desktop/SDL2 Platformer"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Enemybullet",
+			"Mainenemy",
+			"enemybullet",
+			"Renderer",
+			"enemybullet",
+			"draw",
+			"bulletspawn",
+			"Bullet",
+			"setNPC",
+			"npcsprite",
+			"KEYDOWN",
+			"255",
+			"bilder/bullet.bmp",
+			"res/bullet.bmp",
+			"y",
+			"_text_texture",
+			"font_path",
+			"nullptr",
+			"message_text",
+			"RenderWindow::",
+			"WINDOW_WIDTH",
+			"font_path",
+			"utillity",
+			"ut",
+			"x",
+			"y",
+			"x",
+			"900",
+			"600",
+			"100",
+			"bgtexture",
+			"255",
+			"lSDL2",
+			"eve",
+			"bl",
+			"100",
+			"0",
+			"bl=bl(eg);",
+			"int",
+			"+",
+			"int",
+			"gubbTx",
+			"gubbRect",
+			"gubbTx",
+			"4",
+			"NULL",
+			"currentFrame",
+			"SDL_Rect",
+			"currentFrame",
+			"bgtexture",
+			"grassTexture",
+			"render",
+			"SDL_Surface",
+			"surface",
+			"SDL_Texture",
+			"p_tex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 15,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/mainEnemy.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/NPCSprite.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/GameEngine.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1485,
+								1485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 681.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "include/GameEngine.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/PCSprite.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1907,
+								1907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 938.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Playerhealth.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "include/PCSprite.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								943,
+								943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "include/Playerhealth.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "include/Sprite.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/Main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1106,
+								1106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 269.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "include/Healthbarbg.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/Healthbarbg.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 19.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "include/System.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "include/Component.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "include/Enemybullet.h",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/Sprite.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2276,
+								2276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 712.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/playerhealth.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/playerheatlh.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SDL2 Platformer.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bullet",
+				"SDL2Platformer/res/bullet.bmp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
